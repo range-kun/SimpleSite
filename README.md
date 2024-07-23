@@ -17,22 +17,21 @@
 
 Установка и запуск
 
-    Клонируйте репозиторий:
+1. Клонируйте репозиторий:
 
 ``` bash
 git clone https://github.com/yourusername/book-reviews.git
 cd book-reviews
 ```
 
-Создайте и настройте Docker контейнеры:
+2. Создайте и настройте Docker контейнеры:
 
 ```bash
 
     docker-compose up --build
-
-    Откройте браузер и перейдите по адресу http://localhost.
 ```
 
+3. Откройте браузер и перейдите по адресу http://localhost.
 Настройка DNS и SSL:
   1. Зарегистрируйте доменное имя (например, bookreviews.example.com) и настройте DNS-записи на ваш сервер.
   2. Установите Certbot и настройте SSL-сертификат:
